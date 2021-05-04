@@ -47,7 +47,7 @@ namespace Calculator
 
                 Console.WriteLine($"Result For {firstNumber}{operation}{secondNumber} is : {result}");
                 Console.WriteLine(@"If if want to continue press ""Enter"" button,\n" +
-                    @"If you want to exit type ""end"" ");
+                    @"If you want to exit type ""end""");
                 if (Console.ReadLine() == "end")
                 {
                     break;
